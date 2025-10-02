@@ -127,7 +127,7 @@ func displayShortcutsInColumns(allShortcuts []Shortcut) {
 		categorized[s.Category] = append(categorized[s.Category], s)
 	}
 
-	orderedCategories := []string{"Sessions", "Windows", "Pane Splitting & Nav", "Pane Management", "Copy Mode", "Misc"}
+	orderedCategories := []string{"Sessions", "Windows", "Pane Splitting & Nav", "Pane Management", "Misc", "Copy Mode"}
 
 	columnWidth := 25
 	columnSpacing := 2
